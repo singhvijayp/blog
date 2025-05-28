@@ -2,8 +2,7 @@ title: Vijay's Blog
 baseurl: "/blog" # important for hosting in folder
 url: "https://singhvijayp.github.io" # replace with your GitHub username
 
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
 skin: "contrast"
 
