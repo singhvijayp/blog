@@ -1,0 +1,18 @@
+title: Vijay's Blog
+baseurl: "/blog" # important for hosting in folder
+url: "https://singhvijayp.github.io" # replace with your GitHub username
+
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+
+skin: "contrast"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude: ["node_modules", "vendor", "Gemfile", "Gemfile.lock"]
+
+markdown: kramdown
