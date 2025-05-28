@@ -1,5 +1,5 @@
 title: "Vijay's Blog"
-description: "A tech & cybersecurity blog"
+description: "My personal tech and cyber blog"
 url: "https://singhvijayp.github.io"
 baseurl: "/blog"
 
@@ -8,10 +8,14 @@ skin: "contrast"
 
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-include-cache
 
 markdown: kramdown
 
-exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

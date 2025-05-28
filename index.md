@@ -2,4 +2,5 @@
 layout: home
 author_profile: true
 ---
-Welcome to my blog!
+
+Welcome to my personal blog!
