@@ -1,17 +1,17 @@
-title: Vijay's Blog
-baseurl: "/blog" # important for hosting in folder
-url: "https://singhvijayp.github.io" # replace with your GitHub username
+title: "Vijay's Blog"
+description: "A tech & cybersecurity blog"
+url: "https://singhvijayp.github.io"
+baseurl: "/blog"
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
-
+remote_theme: "mmistakes/minimal-mistakes"
 skin: "contrast"
 
 plugins:
-  - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-exclude: ["node_modules", "vendor", "Gemfile", "Gemfile.lock"]
+  - jekyll-include-cache
 
 markdown: kramdown
+
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor"]
